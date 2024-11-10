@@ -18,7 +18,7 @@ class KgToPounds:
     pounds = property(to_pounds, doc="Свойство для получения веса в фунтах")
 
 
-# Основная часть программы
+
 try:
     kg_input = float(input("Введите вес в килограммах: "))
     weight = KgToPounds(kg_input)
